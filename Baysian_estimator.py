@@ -5,7 +5,6 @@ from tkinter import messagebox
 from joblib import load
 
 
-
 # Defining GUI class 
 
 class ScanEntry:

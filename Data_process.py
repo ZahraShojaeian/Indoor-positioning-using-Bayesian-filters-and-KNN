@@ -140,3 +140,7 @@ knn.fit(X_train, Y_train)
 ## Saving the KNN model
 knn_model_file = "knn_model.joblib"
 dump(knn, knn_model_file)
+
+
+
+

@@ -2,8 +2,11 @@
 ## Instructions to run the codes:
 
 
-1.   Create a new Conda environment using the provided `environment.yaml` file:
-```bash
+
+ Create a new Conda environment using the provided `environment.yaml` file:
+
+
+1. ```bash
     conda env create -f environment.yaml
     ```
 2. Activate the environment:

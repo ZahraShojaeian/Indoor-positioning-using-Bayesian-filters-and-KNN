@@ -1,9 +1,8 @@
 # Programming-Task
 ## Instructions to run the codes:
 
-###
- Create a new Conda environment using the provided `environment.yaml` file:
-1. 
+
+1.   Create a new Conda environment using the provided `environment.yaml` file:
 ```bash
     conda env create -f environment.yaml
     ```

@@ -1,6 +1,6 @@
 import numpy as np
 import tkinter as tk
-from preprocess import KNN
+from Data_process import KNN
 from tkinter import messagebox
 from joblib import load
 

@@ -3,12 +3,11 @@
 
 
 
-### Create a new Conda environment using the provided `my_environment.yaml` file:
+### Create a new Conda environment using the provided `my_environment.yaml` file: 
 
-
-1. 
-```bash
-conda env create -f my_environment.yaml -n <environment_name>
+ 
+1.  ```bash
+    conda env create -f my_environment.yaml -n <environment_name>
     ```
 2. Activate the environment:
 

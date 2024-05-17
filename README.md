@@ -3,7 +3,7 @@
 
 
 
-### Create a new Conda environment using the provided `environment.yaml` file:
+### Create a new Conda environment using the provided `my_environment.yaml` file:
 
 
 1. 
@@ -25,7 +25,7 @@ Or if it's a Conda environment:
 
 conda create --name <environment_name> --file requirements.txt
 
-### run the codes
+### Run the codes
 1. First run Data_process.py
 2. Then run Baysian_estimator.py 
 

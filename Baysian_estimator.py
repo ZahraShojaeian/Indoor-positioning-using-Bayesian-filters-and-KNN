@@ -32,7 +32,7 @@ class ScanEntry:
             location, probabilities = bayesian_estimator(new_scan)
             self.show_result(location, probabilities)
         except ValueError:
-            messagebox.showerror("Error", "Invalid input. Please enter numbers separated by commas.")
+            messagebox.showerror("Error", "Invalid input.")
 
     def show_result(self, location, probabilities):
         result_str = f"Location: {location+1}\nProbabilities:\n"

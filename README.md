@@ -1,4 +1,39 @@
 # Indoor positioning using WiFi RSS signals
+
+## Data Preparation
+### 1. Train and Test Split
+Train Data:
+NM points were filled with -100 dBm.
+If NM points > 30% in a location, they were attributed to distance and replaced with -100.
+Otherwise, considered as noise and removed from the training set.
+Test Data:
+All NM points were replaced with -100.
+### 2. AP Tables and Likelihood Functions
+Constructed AP tables for each WiFi sample in each location.
+Fitted Gaussian distributions to use as Likelihood functions in the Bayesian filter.
+For Wi-Fi 1 in location 5 (with only NM points), manually defined the Likelihood function.
+
+## Bayesian Filter Model
+### 1. Prediction with Naive Bayesian Estimator
+Initial Step:
+Defined a Prior probability for each location with a uniform distribution.
+Iteration Process:
+Used KNN classifier to filter most probable locations and updated Prior probability.
+Calculated Posterior probability using Bayes rule from Prior and Likelihood functions.
+Summed predictions of all WiFis for each location, normalized, and found the maximum.
+Iterated until the predicted location probability exceeded 95%.
+Updated Prior with Posterior in each iteration.
+### 2. Test Phase
+Split data into train and test sets (80% train, 20% test).
+Conducted tests 90 times across 15 sample sets (3 per location).
+Achieved an overall accuracy of 80.1%.
+### 3. Accuracy improvement:
+The whole dataset in this project consisted of 15 data points from a real place and one can achieve a higher accuracy using a larger training set.
+
+
+
+
+
 ## Instructions to run the codes:
 
 

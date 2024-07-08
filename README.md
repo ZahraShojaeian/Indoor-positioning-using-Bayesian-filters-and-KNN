@@ -1,5 +1,8 @@
 # Indoor positioning using WiFi RSS signals
-
+## Project Overview
+This project aims to design an indoor localization system utilizing WiFi data for five distinct locations. The system uses the received signal strength (RSS) from three WiFi access points (A, B, and C) to determine the probability of being in each location.
+## Objective
+To Develop a program that, given a new scan <rssA, rssB, rssC>, outputs a probability vector <p1, p2, p3, p4, p5>, where pi represents the probability of being at location i.
 ## Data Preparation
 ### 1. Train and Test Split
 Train Data:
@@ -27,11 +30,12 @@ Updated Prior with Posterior in each iteration.
 Split data into train and test sets (80% train, 20% test).
 Conducted tests 90 times across 15 sample sets (3 per location).
 Achieved an overall accuracy of 80.1%.
-### 3. Accuracy improvement:
-The whole dataset in this project consisted of 15 data points from a real place and one can achieve a higher accuracy using a larger training set.
 
 <img src="Confusion matrix.png" width="450">
 
+
+### 3. Accuracy improvement:
+The whole dataset in this project consisted of 15 data points from a real place and one can achieve a higher accuracy using a larger training set.
 
 
 ## Instructions to run the codes:

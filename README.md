@@ -30,7 +30,7 @@ Achieved an overall accuracy of 80.1%.
 ### 3. Accuracy improvement:
 The whole dataset in this project consisted of 15 data points from a real place and one can achieve a higher accuracy using a larger training set.
 
-
+<img src="Confusion matrix.png" width="450">
 
 
 

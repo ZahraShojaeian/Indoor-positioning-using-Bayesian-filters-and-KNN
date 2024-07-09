@@ -37,7 +37,10 @@ Achieved an overall accuracy of 80.1%.
 ### 3. Accuracy improvement:
 The whole dataset in this project consisted of 15 data points from a real place and one can achieve a higher accuracy using a larger training set.
 
+### References
+[1] D. N. Fernández, "Implementation of a WiFi-based indoor location system on a mobile device for a university area," 2019 IEEE XXVI International Conference on Electronics, Electrical Engineering and Computing (INTERCON), Lima, Peru, 2019, pp. 1-4, doi: 10.1109/INTERCON.2019.8853556.
 
+[2] R. K. Yadav, B. Bhattarai, H. -S. Gang and J. -Y. Pyun, "Trusted K Nearest Bayesian Estimation for Indoor Positioning System," in IEEE Access, vol. 7, pp. 51484-51498, 2019, doi: 10.1109/ACCESS.2019.2910314
 ## Instructions to run the codes:
 
 
